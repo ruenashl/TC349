@@ -1,22 +1,27 @@
 h1 { 
 	font-style: italic;	
 	font-family: Palatino;
-	color: #ff00bb;
+	color: 	#6B8FB2;
 	text-align: center;
+	font-size:50px;
 }
 
 h2	{
 	font-family:Palatino;
-		text-align:left;
+	text-align:left;
+	color:#D3D3D3;
 	
 }
 
 p	{
 	font-family:Palatino;
-		text-align: justified;
+	text-align: justified;
+	font-size:14px;
 	
 }
 h3	{
 	font-family:Palatino;
-		text-align:right;
+	text-align:right;
+	color:#808080;
 }
+
