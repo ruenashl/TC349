@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+body {
+width:1000px;
+margin: 1.5em auto;
+height:auto;
+border-style: none;
+background-color:#FCFFEB;
+
+
+}
+
+html {
+	background-color: white;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 30px;
+	text-align:center;
+	font-weight:lighter;
+	font-variant:small-caps;
+}
+
+h2, h3 {
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight:bold;
+	font-variant:small-caps;
+	font-color: lightgrey;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+p {
+margin: 20px;
+width:900px;
+color: #666;
+font-size:14px;
+font-family:helvetica;
+text-align: left;
+}
+
+#main {
+	font-family:helvetica;
+
+}
+
+#sidebar {	
+padding-bottom: 500px;
+}
+
+#nav li{
+	list-style: none;
+	width: 160px;
+	padding-left:6px;
+	padding-right:5px;
+	border-style: none;
+	font-size:25px;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-variant:small-caps;
+}
+
+#nav {
+	text-align: center;
+}
+
+#nav li {
+  	display: inline;
+}
+
+a:link {
+	COLOR: #68B3AF;
+	text-decoration: none;
+
+}
+
+a:hover {
+	COLOR: #C3DBB4;
+	text-decoration: underline;
+}
+
+a:visited {
+	COLOR: #87BDB1;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #AACCB1;
+	
+}
