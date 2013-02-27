@@ -1,0 +1,7 @@
+Title: heroku
+
+Heroku uses a single column layout with a header, content and a footer. The content is very interactive, most of it leads to more information by clicking on the links. I like that they use Javascript so the user never has to leave the front page when clicking the 4 main links. The layout is very compact, efficient and user friendly. I like the way the information is displayed as soon as you open the page, instead of having to scroll down like Chartbeat.com.
+
+I do not love the color choice, mainly because it is very dark and I like bright things. But this is my personal opinion. The color palette is very subdued and despite the unique graphics, their is no aesthetic grab for me. I think if they added warmer colors to their color palette, it might help emphasis important information and help the audience stay engaged with the page. I think the website has a great layout, I just think they could work on the color palette and design aspect.
+
+For my personal site I used the single layer. This was the only one that was easily incorporated into my site design.

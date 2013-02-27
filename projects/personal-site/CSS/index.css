@@ -10,8 +10,17 @@ margin: 1.5em auto;
 height:auto;
 border-style: none;
 background-color:#FCFFEB;
+}
 
+.wrap {
+margin: 0 10%;	
+}
 
+header, footer {
+background: #9ECC00;
+text-align: center;	
+font-family: helvetica;
+font-size: 8px;
 }
 
 html {
@@ -36,8 +45,6 @@ h2 {
 }
 
 p {
-margin: 20px;
-width:900px;
 color: #666;
 font-size:14px;
 font-family:helvetica;
@@ -94,7 +101,3 @@ a:active {
 	
 }
 
-img.floatLeft { 
-    float: left; 
-    margin: 50px; 
-}
