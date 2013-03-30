@@ -1,23 +1,32 @@
 html { 
 	height: auto; 
-	background: url(IMG/ecailles.png);
 	font-family: "Helvetica", sans-serif;
 	line-height: 1.4em;
 }
 
 
+
 body {
-	  width: 80%;
-	  margin: 20px auto;
-	  background: #;
-	  border: 1px solid #efefef;
-	}
+	margin: 0;
+	position: absolute;
+	width: 100%;
+}
 
-
-#main {
-	margin: auto;
+.main { 
+	margin: 40px auto;
+	padding: 0 25px;
 	position: relative;
-	width: 75%;
+	width: 80%;
+	z-index: 2;
+}
+
+
+#wrap article {
+width: 26%;
+padding: 5% 2% 0 2%;
+margin-top: 10px;
+margin-bottom: 0px;
+
 }
 
 p {
@@ -26,6 +35,7 @@ font-size:12px;
 font-family:helvetica;
 text-align: left;
 }
+
 h2{
 	color: black;
 	font-size:28px;
@@ -59,22 +69,45 @@ h4 {
 		letter-spacing: 4px;
 
 }
-#container {
+.container {
 	border-top: 5px solid lightgrey;
-	float: right;
 	background: #fAffff;
+	margin: 20px 0 0 0;
 
+}
+
+.box {
+	width: 55%;
+	float: right;
+}
+
+.aside {
+	width: 25%;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	padding-bottom: 30px;
+	border-right: solid 1px;
 }
 
 .about {
 	margin-top: 50px;
 }
-.contact{
-		margin: 50px;
-		width: 920px;
-}
+
 .experience {
 	margin: 50px 50px;
+}
+
+.intro {
+	margin-top: -10%;
+}
+
+.intro h3, h5{
+	text-align: center;
+}
+
+.picture {
+	margin-left: 30px;
 }
 
 article {
@@ -86,15 +119,7 @@ background: #fff;
 border: 1px lightgrey;
 }
 
-.picture {
-	float: left;
-	padding: 10px 30px 10px 20px;
-}
 
-.intro {
-	padding-right: 30px;
-	padding-top: 30px;
-}
 
 header {
 		background: #fff;
@@ -102,11 +127,9 @@ header {
 
 header .logo {
 	display: inline;
-	margin-left: auto;
-	margin-right: auto;
+	margin: -85px auto auto 150px;
 	outline: none;
 	position: relative;
-	width: 450px;
 }
 
 header nav {
@@ -178,17 +201,46 @@ header nav {
 
 	}
 
-		footer {
-			margin: 200px -25px 0;
-			padding: 50 25px;
-			background: lightgrey;
-			clear: both;
+.footer-bg {
+	background: #FACC2E;
+	position: absolute;
+	bottom: 0; left: 0;
+	width: 100%; height: 200px;
+	z-index: -1;
+	}
+	
+	footer {
+		margin: 50px -25px 0;
+		padding: 0 25px;
+	}
+	
+	footer p {
+		float: right;
+		margin: 0 20px 0 0;
+		padding: 68px 20px 32px 0;
+		width: 100%;
+	}
+		footer p span {
+			display: block;
+			margin-top: 10px;
 		}
-		footer .name {
-			color: white;
-			font-size: normal 0.7em;
-			letter-spacing: 8px;
-			margin: 20px 0;
-			text-align: center;
-			text-transform: uppercase;
-		}
+
+.side h5, p{ 
+	display:inline;
+	  }
+
+	.contact {
+		padding: 60px 0px;
+		font-size: 0.8em;
+		margin: 20px 0;
+		text-align: center;
+		margin: 20px 0;
+		text-align: center;
+	}
+	.contact p {
+		letter-spacing: 5px;
+		text-indent: 70px;
+	}
+
+
+.clear { clear: both; height: 0  margin: 0  padding: 0 }
