@@ -21,12 +21,8 @@ body {
 }
 
 
-#wrap article {
-width: 26%;
-padding: 5% 2% 0 2%;
-margin-top: 10px;
-margin-bottom: 0px;
-
+.row-fluid {
+	margin: 5%;
 }
 
 p {
