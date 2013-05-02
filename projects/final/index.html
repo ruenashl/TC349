@@ -1,74 +1,86 @@
-<!DOCTYPE html>
-<html lang "en">
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+	<meta charset="utf-8">
+<title>Ashley B. Ruen</title>
 
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
-	<title>Ashley B. Ruen</title>
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	
-	<link rel="stylesheet" href="CSS/style.css" type="text/css" media="screen">
-	<script type="text/javascript" src="js/jquery1.9.1.js"></script>
-  <script type='text/javascript' src='js/script.js'></script>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="CSS/stickystyle.css" type="text/css" media="screen">
 
+
+
+<script type="text/javascript" src="js/jquery1.9.1.js"></script>
+<script type="text/javascript" src="js/stickyMojo.js"></script>
 </head>
 
 <body>
-			<div class="main shop" role="main">
-	<header>
-
-			<nav class="left">
-				<a href="index.html">Home<span></span></a>
-					<span>&nbsp;</span>
-				<a href="about.html">About <span></span></a>
-		    		<span>&nbsp;</span>
-			</nav>
-		<a class="logo" href="index.html"><img src="IMG/logo.png" alt="ABR"></a>
-			<nav class="right">
-				<a href="portfolio.html">Portfolio<span></span></a>
-					<span>&nbsp;</span>
-				<a href="experience.html">Experience<span></span></a>
-					<span>&nbsp;</span>
-			</nav>
-	</header>
-		<div class="container">
-
-			<div class="row-fluid">
-
-				<div class="span3">
-					<img src="img/linkedin.jpg" width="200" height="200" alt="Linkedin" class="img-rounded">
-				</div>
-				
-				<div class="span4">
-					<p>I am a junior at Michigan State University; majoring in Media and Information with a concentration in Interactive and Social Media and a specialization in Digital Humanities. I plan to finish my last remaining courses online this May and June and will finish my last few credits with an internship in the Fall of 2013. </p>
-				</div>
-				
-			  	<div class="span4">
-					<h4>Things I Believe in:</h4>
-					<h5>The Law of Attraction<br>The Power of Positive Thinking<br> The Good in Humanity<br>and Really Great Shoes</h5>	
-				</div>
-			 
-			</div>
-			</div>
-				
-			<footer>
-				<p><br /></p>	
-				<div class="clear"></div>
-			</footer>
-</div>
-
-					<div class="side">
-						<div class="contact">
-							<h5>Email &nbsp;&nbsp;&nbsp;</h5>
-								<p>ruenashl@msu.edu&nbsp;&nbsp;&nbsp;</p>
-							<h5>Linkedin&nbsp;&nbsp;&nbsp;</h5>
-								<p><a href="http://www.linkedin.com/in/ashleybruen/" target="_blank">www.linkedin.com/in/ashleybruen</a>&nbsp;&nbsp;&nbsp;</p>
-							<h5>Twitter&nbsp;&nbsp;&nbsp;</h5>
-								<p><a href="http://www.twitter.com/ashruen" target="_blank">@ashruen</a></p>
-						</div>
-					</div>
-
-			<div class="footer-bg"></div>
-
-</body>
-</html>	
+	<div class="header-cont">
+		<header>
+			<a class="logo"><img src="IMG/logo.png" alt="ABR"></a>
+		</header>
+	</div>
 	
+	<div id="wrapper">
+		
+		<div id="sidebar">
+			
+
+			<a href="index.html">Home</a><br />
+		<a href="about.html">About</a><br />
+		<a href="experience.html">Experience</a><br />
+			<a href="portfolio.html">Portfolio</a>	
+		</div>
+		
+	<div id="main">
+		<div class="row-fluid">
+		
+			<div class="span3"><img src="IMG/linkedin.jpg" class="img-rounded" width="200" height="200" alt="Linkedin">
+			</div>
+			<div class="span1"></div>
+			<div class="span3">
+				<p>I am a junior at Michigan State University; majoring in Media and Information with a concentration in Interactive and Social Media and a specialization in Digital Humanities. I plan to finish my last remaining courses online this May and June and will finish my last few credits with an internship in the Fall of 2013. </p>
+			</div>
+			<div class="bullets">
+				<div class="span1"></div>
+			<div class="span4">
+				<h4>Things I Believe in:</h4>
+				<h5>The Law of Attraction<br />
+					The Power of Positive Thinking<br />
+ 					The Good in Humanity<br />
+					and Really Great Shoes</h5>
+			</div>
+			</div>
+	
+		</div>
+	</div>
+	</div>	
+
+	<div id="footer">
+		<div class="side">
+			<div class="contact">
+				<h5>Email &nbsp;&nbsp;&nbsp;</h5>
+				<p><a href="mailto:ruenashl@gmail.com">ruenashl@gmail.com</a>&nbsp;&nbsp;&nbsp;</p>
+				<h5>Linkedin&nbsp;&nbsp;&nbsp;</h5>
+				<p><a href="http://www.linkedin.com/in/ashleybruen/" target="_blank">www.linkedin.com/in/ashleybruen</a>&nbsp;&nbsp;&nbsp;</p>
+				<h5>Twitter&nbsp;&nbsp;&nbsp;</h5>
+				<p><a href="http://www.twitter.com/ashruen" target="_blank">@ashruen</a></p>
+			</div>
+		</div>
+	</div>
+
+<script>
+	  $(document).ready(function(){
+	    $('#sidebar').stickyMojo({footerID: '#footer', contentID: '#main'});
+	  });
+	
+	
+	
+	<!--
+	if (screen.width <= 700) {
+	window.location = "http://m.ashleyruen.org";
+	}
+	//-->
+
+	</script>
+</body>
+</html>

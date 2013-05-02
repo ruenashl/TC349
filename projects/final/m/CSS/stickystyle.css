@@ -1,0 +1,158 @@
+html { 
+	height: auto; 
+	font-family: "Helvetica", sans-serif;
+	line-height: 1.4em;
+}
+
+	a:link {
+		COLOR: #68B3AF;
+		text-decoration: none;
+
+	}
+
+	a:hover {
+		COLOR: #C3DBB4;
+		text-decoration: underline;
+	}
+
+	a:visited {
+		COLOR: #87BDB1;
+		text-decoration: underline;
+	}
+
+	a:active {
+		color: #AACCB1;
+
+	}
+	
+	.img {
+
+		margin-left: 40px;
+		margin-bottom: 0px;
+	}
+	
+	.words {
+		margin: 3%;
+		padding: 3%;
+		margin-top: 0px;
+		float: center;
+	}
+
+	.morewords {
+		margin: 3%;
+		padding: 3%;
+		float: center;
+	}
+	
+	.morewords h5 {
+		text-align: center;
+	}
+	
+	p {
+	color: #666;
+	font-size:12px;
+	font-family:helvetica;
+	text-align: left;
+	}
+
+	h2{
+		color: black;
+		font-size:28px;
+		font-family:helvetica;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+	}
+	h3 {
+		color: slategrey;
+		font-size:15px;
+		font-family:helvetica;
+		text-align: left;
+			letter-spacing: 2px;
+	}
+	h5 {
+		color: black;
+		font-size:12px;
+		font-family:helvetica;
+		text-align: left;
+
+
+	}
+	h4 {
+		color: #666;
+		font-size:18px;
+		font-style: bold;
+		font-style: italic;
+		font-family:helvetica;
+		text-align: center;
+			letter-spacing: 4px;
+
+	}
+	
+	
+	.bullets {
+		margin-right: 30px;
+	}
+	.bullets h5 {
+		text-align: center;
+	}
+
+.bottom {
+	background: #FACC2E;
+	width: 100%;
+  clear:both;
+  height: 100px;
+}
+
+
+	.contact {
+		font-size: 0.5em;
+		text-align: center;
+		text-transform: lowercase;
+	}
+	
+
+
+.span5 {
+	margin: 2%;
+	padding: 2%;
+}
+
+/* gallery display */
+.photos {
+  display: block;
+}
+
+.photos ul { list-style: none; }
+
+.photos ul li { display: inline; }
+
+.photos ul li a {
+  display: block;
+  float: left;
+  padding: 4px;
+  margin-right: 25px;
+  margin-bottom: 7px;
+  opacity: 0.80;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.photos ul li a:hover {
+  opacity: 1.0;
+}
+
+.photos ul li a img {
+  border: 6px solid #ccc;
+}
+
+/* lightbox hacks */
+#lightbox-container-image-data-box {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.selectnav { display: none; }
+
+
